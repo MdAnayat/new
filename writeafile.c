@@ -2,10 +2,10 @@
  void main()
  {
      FILE *fptr;
-     char name[20];
+     char name[15];
      int age;
      int salary;
-     fptr =fopen("C:\\emp.bin","w");
+     fptr =fopen("C:\\abul.bin","w");
     if(fptr==NULL)
     {
         printf("File does not exist");
