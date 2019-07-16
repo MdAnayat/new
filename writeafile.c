@@ -5,7 +5,7 @@
      char name[20];
      int age;
      int salary;
-     fptr =fopen("C:\\emp.rec","w");
+     fptr =fopen("C:\\emp.bin","w");
     if(fptr==NULL)
     {
         printf("File does not exist");
