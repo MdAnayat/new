@@ -5,7 +5,7 @@
      char name[10];
      int age;
      int salary;
-     fptr =fopen("C:\\abul.bin","w");
+     fptr =fopen("C:\\abul.txt","w");
     if(fptr==NULL)
     {
         printf("File does not exist");
