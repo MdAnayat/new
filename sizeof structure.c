@@ -1,12 +1,17 @@
 #include<stdio.h>
 int main()
 {
-  char test = 'h';
+
   struct C
   {
       int x;
       int y;
-
+      char t;
+      char z;
+      char p;
+      char l;
+      char o;
+      int m;
 
   };
 
